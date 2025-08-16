@@ -1,19 +1,17 @@
 "use strict";
 
 export const HeroSection = ({data}) => {
-    const headline = data.headline;
-    const subHeadline = data.subHeadline;
-
-    return(
-        <>
-            <div className="bg-blue-200 text-center">
-                <div className="">
-                    <h1 className="">{headline}</h1>
-                </div>
-                <div className="">
-                    <h4>{subHeadline}</h4>
-                </div>
+    const {headline, subHeadline} = data;
+    return (
+        <section className="bg-white text-gray-900 py-44 border-amber-600">
+            <div className="max-w-3xl mx-auto px-6 text-center">
+                <h1 className="text-5xl md:text-6xl font-extrabold leading-tight tracking-tight mb-6">
+                    {headline}
+                </h1>
+                <p className="text-xl md:text-2xl text-gray-600 leading-relaxed">
+                    {subHeadline}
+                </p>
             </div>
-        </>
+        </section>
     );
 }
