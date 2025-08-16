@@ -1,7 +1,7 @@
 {
     "hero": {
-        "title": "Hello Traveller.",
-        "desc": "Yo, its me Arsalan, aka Izake. I'm doing this webdev thing, but honstly i pick up what ever comes on the way. Whatever lands and then it's more of like figuring out how not just to make it work but with the idea how to make it sustain. You will explore here ideas, some finished Projects. Some unfinished Struggles floating around. Thats the point its the Journey that counts right?"
+        "headline": "Hello Traveller.",
+        "subHeadline": "Yo, its me Arsalan, aka Izake. I'm doing this webdev thing, but honstly i pick up what ever comes on the way. Whatever lands and then it's more of like figuring out how not just to make it work but with the idea how to make it sustain. You will explore here ideas, some finished Projects. Some unfinished Struggles floating around. Thats the point its the Journey that counts right?"
     },
     "about-me": {
         "title": "About Me",
