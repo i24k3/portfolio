@@ -1,5 +1,6 @@
 "use strict";
 import { HeroSection } from './components/HeroSection';
+import Loading from './components/Loading';
 import { useJsonData } from './hooks/useJsonData';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     return (
         <>
             <div>
+                {loading && <Loading/>}
                 {data && <HeroSection data={data.hero}/>}
             </div>
 
