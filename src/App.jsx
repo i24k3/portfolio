@@ -12,12 +12,25 @@ function App() {
         <>
             <div>
                 <Cursor/>
-                {loading && <Loading/>}
                 {data && <HeroSection data={data.hero}/>}
-            </div>
 
+                <SiteNotice/>
+            </div>
         </>
     )
 }
+
+export function SiteNotice() {
+  return (
+    <div className="w-full flex justify-center mt-8 px-4">
+      <div className="border border-amber-600 text-gray-900 px-4 py-3 rounded-md text-center max-w-2xl w-full">
+        <p className="text-sm sm:text-base leading-relaxed">
+          <span className="font-semibold text-black">Site in progress:</span> This project is currently under development. New features and improvements are on the way.
+        </p>
+      </div>
+    </div>
+  );
+}
+
 
 export default App
