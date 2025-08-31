@@ -9,3 +9,7 @@
   color: #000000; /* Black text */
 }
 
+html, body, * {
+  cursor: none !important;
+}
+
