@@ -1,2 +1,11 @@
 @import "tailwindcss";
 
+.click-pop {
+    transform: scale(1.5) !important;
+}
+
+::selection {
+  background-color: #facc15; /* Tailwind's yellow-400 */
+  color: #000000; /* Black text */
+}
+

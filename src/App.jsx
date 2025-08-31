@@ -1,4 +1,5 @@
 "use strict";
+import Cursor from './components/Cursor';
 import { HeroSection } from './components/HeroSection';
 import Loading from './components/Loading';
 import { useJsonData } from './hooks/useJsonData';
@@ -10,6 +11,7 @@ function App() {
     return (
         <>
             <div>
+                <Cursor/>
                 {loading && <Loading/>}
                 {data && <HeroSection data={data.hero}/>}
             </div>
