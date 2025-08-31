@@ -9,7 +9,8 @@
   color: #000000; /* Black text */
 }
 
-html, body, * {
+body.hide-cursor * {
   cursor: none !important;
 }
+
 
