@@ -1,4 +1,5 @@
-# [protfolio code]: i24k3.github.io
+# protfolio code
+[website]: i24k3.github.io
 
 TODO:
 - add custom cursor
