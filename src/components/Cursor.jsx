@@ -33,7 +33,7 @@ export default function CustomCursor() {
                 circle.classList.add("click-pop");
                 setTimeout(() => {
                     circle.classList.remove("click-pop");
-                }, 150);
+                }, 77);
             });
         };
 

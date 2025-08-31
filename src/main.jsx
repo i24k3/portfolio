@@ -7,14 +7,24 @@ import Loading from './components/Loading.jsx'
 const Root = () => {
     const [showApp, setShowApp] = useState(false);
 
-    useEffect(()=> {
-        const timer = setTimeout(()=> {
+    useEffect(() => {
+        const timer = setTimeout(() => {
             setShowApp(true);
         }, 5000);
         return () => clearTimeout(timer);
-    },[]);
-    return showApp ? <App/> : <Loading/>
-}
+    }, []);
+
+    return (
+        <div className={showApp ? 'cursor-none' : 'cursor-default'}>
+            <App />
+            {!showApp && (
+                <div className="fixed inset-0 z-50 bg-white flex items-center justify-center">
+                    <Loading />
+                </div>
+            )}
+        </div>
+    );
+};
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>
