@@ -1,7 +1,8 @@
 {
     "hero": {
         "headline": "Hello Traveller.",
-        "subHeadline": "Yo, its me Arsalan, aka Izake. I'm doing this webdev thing, but honstly i pick up what ever comes on the way. Whatever lands and then it's more of like figuring out how not just to make it work but with the idea how to make it sustain. You will explore here ideas, some finished Projects. Some unfinished Struggles floating around. Thats the point its the Journey that counts right?"
+        "subHeadline": "Yo, it’s me Arsalan, aka Izake. I’ve been doing this web dev thing for a while now. Honestly, I just pick up whatever comes my way — then it’s all about figuring out how to make it work and keep it going. Here, you’ll find ideas, some finished projects, and some unfinished struggles.",
+        "subHeadline1": " Maybe it’s all part of the journey, after all."
     },
     "about-me": {
         "title": "About Me",
@@ -9,3 +10,4 @@
         "desc_2": "I'm not really great with words but this is my attempt of talking to you. Shearing about-me. I could write text on and on about i do this and that. That's not my style afterall i am a strong believer of actions speak for themselves so this is the most i can write. Realistically I dont' know myself this stranger which most people claim to know."
     }
 }
+
