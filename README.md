@@ -1,6 +1,6 @@
 # protfolio code
 
-[website](i24k3.github.io)
+[website](https://i24k3.github.io)
 
 TODO:
 - add custom cursor
