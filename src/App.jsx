@@ -1,7 +1,7 @@
 "use strict";
+import About from './components/About';
 import Cursor from './components/Cursor';
 import { HeroSection } from './components/HeroSection';
-import Loading from './components/Loading';
 import { useJsonData } from './hooks/useJsonData';
 
 function App() {
@@ -10,9 +10,11 @@ function App() {
 
     return (
         <>
-            <div>
+            <div className='bg-gray-300'>
                 <Cursor/>
+
                 {data && <HeroSection data={data.hero}/>}
+                {data && <About data={data.aboutme}/>}
 
                 <SiteNotice/>
             </div>
@@ -21,7 +23,7 @@ function App() {
 }
 
 export function SiteNotice() {
-  return (
+    return (
     <div className="w-full flex justify-center mt-8 px-4">
       <div className="border border-amber-600 text-gray-900 px-4 py-3 rounded-md text-center max-w-2xl w-full">
         <p className="text-sm sm:text-base leading-relaxed">

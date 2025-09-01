@@ -10,7 +10,7 @@ const Root = () => {
     useEffect(() => {
         const timer = setTimeout(() => {
             setShowApp(true);
-        }, 5000);
+        }, 1000);
         return () => clearTimeout(timer);
     }, []);
 
