@@ -13,10 +13,20 @@ function App() {
             <div className='bg-gray-300'>
                 <Cursor/>
 
-                {data && <HeroSection data={data.hero}/>}
-                {data && <About data={data.aboutme}/>}
+                <div className="h-screen overflow-y-auto overflow-x-hidden snap-y snap-mandatory scroll-smooth">
+                    <div className="h-full w-full snap-start">
+                        {data && <HeroSection data={data.hero}/>}
+                    </div>
+                    <div className="h-screen w-screen snap-start">
+                        {data && <About data={data.aboutme}/>}
+                    </div>
 
-                <SiteNotice/>
+                </div>
+
+                {/* {data && <HeroSection data={data.hero}/>} */}
+                {/* {data && <About data={data.aboutme}/>} */}
+
+                {/* <SiteNotice/> */}
             </div>
         </>
     )
