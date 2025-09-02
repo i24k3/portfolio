@@ -90,7 +90,7 @@ export default function CustomCursor() {
 
     return (
         <>
-            {Array.from({ length: 15 }).map((_, i) => (
+            {Array.from({ length: 11 }).map((_, i) => (
                 <div
                     key={i}
                     ref={(el) => (circlesRef.current[i] = el)}
