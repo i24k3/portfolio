@@ -34,7 +34,7 @@ const ExpCard = ({ data }) => {
       <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
       <p className="text-sm text-gray-500 mb-2 italic">{date}</p>
       <p className="text-md text-gray-800 font-medium mb-1">{summary}</p>
-      <p className="text-md text-gray-600 leading-relaxed">{details}</p>
+      <p className="mt-3 text-md italic text-gray-600 leading-relaxed ">{details}</p>
     </div>
   );
 };
