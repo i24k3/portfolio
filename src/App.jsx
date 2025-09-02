@@ -1,6 +1,7 @@
 "use strict";
 import About from './components/About';
 import Cursor from './components/Cursor';
+import { Experience } from './components/Experience';
 import { HeroSection } from './components/HeroSection';
 import ScrollInd from './components/ScrollInd';
 import { useJsonData } from './hooks/useJsonData';
@@ -21,6 +22,9 @@ function App() {
                     </div>
                     <div className="h-screen w-screen snap-start">
                         {data && <About data={data.aboutme}/>}
+                    </div>
+                    <div className="h-screen w-screen snap-start">
+                        {data && <Experience data={data.experience}/>}
                     </div>
 
                 </div>
