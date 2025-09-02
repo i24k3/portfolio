@@ -28,7 +28,7 @@
             "title": "auto-boiler (npm package)",
             "date": "Posted Aug 30, 2025",
             "summary": "Wasted a few weeks to save a few minutes. Totally worth it.",
-            "details": "auto-boiler is a tiny Node.js CLI tool I published to npm. What does it do? Simple: it watches a folder in your project, and whenever you add a new file — boom — it auto-fills it with boilerplate code. JSX, TSX, JS, TS — whatever you like. You can even customize the templates or add your own file types. It’s like Emmet, but even lazier. I built it mostly because I was tired of writing the same stuff 10 times when setting up components. Got 138 downloads in 2 days after posting, which was cool - makes me feel better that i am not the only lazy one out there. Oh, and it's built using just Node’s built-in modules — no dependencies, works on all OSes. Mission Successfull."
+            "details": "auto-boiler is a tiny Node.js CLI tool I published to npm. What does it do? Simple: it watches a folder in your project, and whenever you add a new file — boom — it auto-fills it with boilerplate code. JSX, TSX, JS, TS — whatever you like. You can even customize the templates or add your own file types. It’s like Emmet, but even lazier. I built it mostly because I was tired of writing the same stuff 10 times when setting up components. Got 138 downloads in 2 days after posting, which was cool - makes me feel better that i am not the only lazy one out there. Oh, and it's built using just Node’s built-in modules — no dependencies, works on all OSes. Mission Successfull.",
             "github":"",
             "websiteUrl":""
         }

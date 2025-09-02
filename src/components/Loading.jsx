@@ -2,17 +2,14 @@
 
 export default function Loading() {
     return (
-        <section className="bg-white text-gray-900 min-h-screen flex items-center justify-center px-6 border-amber-600">
+        <section className="text-gray-900 min-h-screen flex items-center justify-center px-6 border-amber-600">
             <div className="max-w-3xl text-center animate-fade-in">
-                <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight tracking-tight mb-6 text-rose-500">
-                    Just a moment...
+                <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight tracking-tight mb-6 text-black ">
+                    Loading...
                 </h1>
-                <p className="text-lg sm:text-xl md:text-2xl text-gray-700 mb-4">
-                    Getting things ready for you.
-                </p>
                 <div className="inline-flex items-center gap-2 text-base sm:text-lg font-medium">
                     <svg
-                        className="w-5 h-5 animate-spin"
+                        className="w-5 h-5 animate-spin text-black"
                         fill="none"
                         stroke="currentColor"
                         strokeWidth="2"
@@ -33,7 +30,9 @@ export default function Loading() {
                             d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"
                         ></path>
                     </svg>
-                    Loading data in the background...
+                    <div className="text-black text-lg">
+                    Getting things ready for you...
+                    </div>
                 </div>
             </div>
         </section>

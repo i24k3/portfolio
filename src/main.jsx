@@ -18,7 +18,7 @@ const Root = () => {
         <div className={showApp ? 'cursor-none' : 'cursor-default'}>
             <App />
             {!showApp && (
-                <div className="fixed inset-0 z-50 bg-white flex items-center justify-center">
+                <div className="fixed inset-0 z-50 flex items-center justify-center bg-gray-300">
                     <Loading />
                 </div>
             )}
