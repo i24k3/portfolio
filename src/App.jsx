@@ -2,6 +2,7 @@
 import About from './components/About';
 import Cursor from './components/Cursor';
 import { HeroSection } from './components/HeroSection';
+import ScrollInd from './components/ScrollInd';
 import { useJsonData } from './hooks/useJsonData';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
             <div className='bg-gray-300'>
                 <Cursor/>
 
+                <ScrollInd/>
                 <div className="h-screen overflow-y-auto overflow-x-hidden snap-y snap-mandatory scroll-smooth">
                     <div className="h-full w-full snap-start">
                         {data && <HeroSection data={data.hero}/>}
