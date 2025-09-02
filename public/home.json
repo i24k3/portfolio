@@ -9,7 +9,10 @@
         "desc_1": " Alright buddy, I guess it’s time I spill the beans about myself. I'm a developer — though honestly, I’m not exactly sure what kind. Sometimes I work on web stuff, sometimes Android apps, and most of the time I’m just figuring things out as I go. I have a degree in Information Technology, but let’s be real — most of what I’ve actually learned came from messing around, following my curiosity, and just building things. And yeah, that also means a lot of time spent stuck on bugs. There have been nights where I’ve felt completely down just because I couldn’t get something to work the way I wanted it to.",
         "desc_2": " I’m not the best with words, but this is me trying. Sharing a bit about myself. I could go on writing about how I do this and that, but honestly, that’s not really my style. I’ve always believed that actions speak louder than words — so this is probably the most I’ll ever write about myself. Truth is, I don’t fully know myself either — this “self” that everyone seems to think they’ve figured out. I'm just out here trying things, learning, building, failing, and trying again. That’s all there is to it."
     },
-    "experience": [
+    "experience": {
+    "title": "Experience && Qualification",
+    "desc": "Experience, huh? I’ve always found that word a bit weird. Most of the time, it’s just a list of things people did. But for me, experience is more about the unique moments trying things different to know about the unknown. Maybe we don't collect experiences, its the experience that choose us.",
+    "details": [
         {
             "title": "B.Sc in Information Technology",
             "date": "2022 – June 2025",
@@ -22,7 +25,8 @@
             "summary": "Spend my time learning about clean coding paractices, tools and how React and javascript magic happens underneath",
             "details": "During my internship at NIT Srinagar, I worked on mostly random things but they were all webdev inclined. I mostly did the things hard way to better understand how things work underneath for example instead of using react-router-dom i was instructed to create one myself and then use it. The experience grounded me, honestly humbled me down — I realized how different real-world development is from just gluing stuff together on your own."
         }
-    ],
+    ]
+    },
     "projects": [
         {
             "title": "auto-boiler (npm package)",
