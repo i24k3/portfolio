@@ -29,16 +29,24 @@
     },
     "projects": {
         "title": "Project's",
-        "desc": "Projects are weird, they start as small ideas, half-baked and vague, and somehow turn into hours of rabbit holes. Not everything here is perfect or polished, but they taught me a lot of things - the lessons that are never talked about."
+        "desc": "Projects are weird, they start as small ideas, half-baked and vague, and somehow turn into hours of rabbit holes. Not everything here is perfect or polished, but they taught me a lot of things - the lessons that are never talked about.",
         "details": [
             {
                 "title": "auto-boiler (npm package)",
                 "date": "Posted Aug 30, 2025",
                 "summary": "Wasted a few weeks to save a few minutes. Totally worth it.",
                 "details": "auto-boiler is a tiny Node.js CLI tool I published to npm. What does it do? Simple: it watches a folder in your project, and whenever you add a new file — boom — it auto-fills it with boilerplate code. JSX, TSX, JS, TS — whatever you like. You can even customize the templates or add your own file types. It’s like Emmet, but even lazier. I built it mostly because I was tired of writing the same stuff 10 times when setting up components. Got 138 downloads in 2 days after posting, which was cool - makes me feel better that i am not the only lazy one out there. Oh, and it's built using just Node’s built-in modules — no dependencies, works on all OSes. Mission Successfull.",
-                "github":"",
-                "websiteUrl":""
-            }
+                "github":"https://github.com/i24k3/auto-boiler",
+                "websiteUrl":"https://www.npmjs.com/package/auto-boiler"
+            },
+            {
+  "title": "This Portfolio",
+  "date": "Ongoing — 2025",
+  "summary": "Not just a website. A personal experiment in identity, code, and expression.",
+  "details": "This portfolio wasn’t meant to be flashy — it was meant to feel real. I built it using React and Tailwind, but more than that, I approached it like storytelling. Every section is handcrafted — no generic 'skills' grid, no corporate resume tone. Just me, talking to whoever’s on the other side of the screen. From the custom raindrop-style cursor to expandable project cards and animated toggles, everything was built to feel interactive, curious, and slightly unexpected.",
+  "github": "https://github.com/i24k3/portfolio"
+}
+
         ]
     }
 
