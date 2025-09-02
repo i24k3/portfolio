@@ -3,6 +3,7 @@ import About from './components/About';
 import Cursor from './components/Cursor';
 import { Experience } from './components/Experience';
 import { HeroSection } from './components/HeroSection';
+import Projects from './components/Projects';
 import ScrollInd from './components/ScrollInd';
 import { useJsonData } from './hooks/useJsonData';
 
@@ -26,6 +27,10 @@ function App() {
                     <div className="h-screen w-screen snap-start">
                         {data && <Experience data={data.experience}/>}
                     </div>
+                    <div className="h-screen w-screen snap-start">
+                        {data && <Projects data={data.projects}/>}
+                    </div>
+
 
                 </div>
 
