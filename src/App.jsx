@@ -17,31 +17,17 @@ function App() {
                 <Cursor/>
 
                 <ScrollInd/>
-                <div className="h-screen overflow-y-auto overflow-x-hidden snap-y snap-mandatory scroll-smooth">
-                    <div className="h-full w-full snap-start">
-                        {data && <HeroSection data={data.hero}/>}
-                    </div>
-                    <div className="h-screen w-screen snap-start">
-                        {data && <About data={data.aboutme}/>}
-                    </div>
-                    <div className="h-screen w-screen snap-start">
-                        {data && <Experience data={data.experience}/>}
-                    </div>
-                    <div className="h-screen w-screen snap-start">
-                        {data && <Projects data={data.projects}/>}
-                    </div>
-
-
-                </div>
-
-                {/* {data && <HeroSection data={data.hero}/>} */}
-                {/* {data && <About data={data.aboutme}/>} */}
+                {data && <HeroSection data={data.hero}/>}
+                {data && <About data={data.aboutme}/>}
+                {data && <Experience data={data.experience}/>}
+                {data && <Projects data={data.projects}/>}
 
                 {/* <SiteNotice/> */}
             </div>
         </>
     )
 }
+
 
 export function SiteNotice() {
     return (

@@ -14,11 +14,11 @@ const ScrollInd = () => {
 
   return (
     <div
-      className={`fixed bottom-6 left-1/2 transform -translate-x-1/2 text-gray-500 text-3xl transition-opacity duration-500 z-50 ${
+      className={`fixed bottom-6 left-1/2 transform -translate-x-1/2 text-4xl transition-opacity duration-500 z-50 ${
         visible ? "opacity-100" : "opacity-0 pointer-events-none"
       }`}
     >
-      <div className="animate-bounce">↓</div>
+      <div className="animate-bounce text-emerald-500 font-extrabold">↓</div>
     </div>
   );
 };

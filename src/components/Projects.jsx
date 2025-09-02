@@ -4,7 +4,7 @@ export default function Projects({ data }) {
     const { title, desc, details } = data;
 
     return (
-        <section className="bg-transparent text-gray-900 py-20">
+        <section className="bg-transparent text-gray-900 py-33 ">
             <div className="max-w-3xl mx-auto px-6 text-left">
                 <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 underline">
                     {title}
@@ -35,7 +35,7 @@ const ProjectCard = ({ data }) => {
   return (
     <div
       onClick={handleToggle}
-      className={`border border-gray-300 rounded-lg p-6 shadow-sm transition-shadow duration-300 cursor-pointer group 
+      className={`border border-gray-400 rounded-lg p-6 shadow-sm transition-shadow duration-300 cursor-pointer group 
         ${expanded ? "shadow-md" : "hover:shadow-md"}`}
     >
       <div className="flex flex-col gap-2">
