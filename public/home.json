@@ -10,33 +10,37 @@
         "desc_2": " I’m not the best with words, but this is me trying. Sharing a bit about myself. I could go on writing about how I do this and that, but honestly, that’s not really my style. I’ve always believed that actions speak louder than words — so this is probably the most I’ll ever write about myself. Truth is, I don’t fully know myself either — this “self” that everyone seems to think they’ve figured out. I'm just out here trying things, learning, building, failing, and trying again. That’s all there is to it."
     },
     "experience": {
-    "title": "Experience && Qualification",
-    "desc": "Experience, huh? I’ve always found that word a bit weird. Most of the time, it’s just a list of things people did. But for me, experience is more about the unique moments trying things different to know about the unknown. Maybe we don't collect experiences, its the experience that choose us.",
-    "details": [
-        {
-            "title": "B.Sc in Information Technology",
-            "date": "2022 – June 2025",
-            "summary": "Studied theory. Learned more by doing.",
-            "details": "I did my B.Sc IT from Islamia College of Science and Commerce. It covered the usual stuff — data structures, programming, OS, networking, the works. And yeah, it sure gave me a foundation to work with, but the real learning happened elsewhere. YouTube tutorials - those 8 hour long videos, and just messing around. Still, it wasn't enough as when i met a senior dev. I was able to visualise the knowledge gap."
-        },
-        {
-            "title": "Web Dev Intern @ NIT Srinagar under Astern Tech",
-            "date": "June 2025 – Sept 1, 2025",
-            "summary": "Spend my time learning about clean coding paractices, tools and how React and javascript magic happens underneath",
-            "details": "During my internship at NIT Srinagar, I worked on mostly random things but they were all webdev inclined. I mostly did the things hard way to better understand how things work underneath for example instead of using react-router-dom i was instructed to create one myself and then use it. The experience grounded me, honestly humbled me down — I realized how different real-world development is from just gluing stuff together on your own."
-        }
-    ]
+        "title": "Experience's",
+        "desc": "Experience, huh? I’ve always found that word a bit weird. Most of the time, it’s just a list of things people did. But for me, experience is more about the unique moments trying things different to know about the unknown. Maybe we don't collect experiences, its the experience that choose us.",
+        "details": [
+            {
+                "title": "B.Sc in Information Technology",
+                "date": "2022 – June 2025",
+                "summary": "Studied theory. Learned more by doing.",
+                "details": "I did my B.Sc IT from Islamia College of Science and Commerce. It covered the usual stuff — data structures, programming, OS, networking, the works. And yeah, it sure gave me a foundation to work with, but the real learning happened elsewhere. YouTube tutorials - those 8 hour long videos, and just messing around. Still, it wasn't enough as when i met a senior dev. I was able to visualise the knowledge gap."
+            },
+            {
+                "title": "Web Dev Intern @ NIT Srinagar under Astern Tech",
+                "date": "June 2025 – Sept 1, 2025",
+                "summary": "Spend my time learning about clean coding paractices, tools and how React and javascript magic happens underneath",
+                "details": "During my internship at NIT Srinagar, I worked on mostly random things but they were all webdev inclined. I mostly did the things hard way to better understand how things work underneath for example instead of using react-router-dom i was instructed to create one myself and then use it. The experience grounded me, honestly humbled me down — I realized how different real-world development is from just gluing stuff together on your own."
+            }
+        ]
     },
-    "projects": [
-        {
-            "title": "auto-boiler (npm package)",
-            "date": "Posted Aug 30, 2025",
-            "summary": "Wasted a few weeks to save a few minutes. Totally worth it.",
-            "details": "auto-boiler is a tiny Node.js CLI tool I published to npm. What does it do? Simple: it watches a folder in your project, and whenever you add a new file — boom — it auto-fills it with boilerplate code. JSX, TSX, JS, TS — whatever you like. You can even customize the templates or add your own file types. It’s like Emmet, but even lazier. I built it mostly because I was tired of writing the same stuff 10 times when setting up components. Got 138 downloads in 2 days after posting, which was cool - makes me feel better that i am not the only lazy one out there. Oh, and it's built using just Node’s built-in modules — no dependencies, works on all OSes. Mission Successfull.",
-            "github":"",
-            "websiteUrl":""
-        }
-    ]
+    "projects": {
+        "title": "Project's",
+        "desc": "Projects are weird, they start as small ideas, half-baked and vague, and somehow turn into hours of rabbit holes. Not everything here is perfect or polished, but they taught me a lot of things - the lessons that are never talked about."
+        "details": [
+            {
+                "title": "auto-boiler (npm package)",
+                "date": "Posted Aug 30, 2025",
+                "summary": "Wasted a few weeks to save a few minutes. Totally worth it.",
+                "details": "auto-boiler is a tiny Node.js CLI tool I published to npm. What does it do? Simple: it watches a folder in your project, and whenever you add a new file — boom — it auto-fills it with boilerplate code. JSX, TSX, JS, TS — whatever you like. You can even customize the templates or add your own file types. It’s like Emmet, but even lazier. I built it mostly because I was tired of writing the same stuff 10 times when setting up components. Got 138 downloads in 2 days after posting, which was cool - makes me feel better that i am not the only lazy one out there. Oh, and it's built using just Node’s built-in modules — no dependencies, works on all OSes. Mission Successfull.",
+                "github":"",
+                "websiteUrl":""
+            }
+        ]
+    }
 
 }
 
