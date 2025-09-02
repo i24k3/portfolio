@@ -6,7 +6,7 @@ export default function About({ data }) {
     return (
         <section className="bg-transparent text-gray-900 py-20">
             <div className="max-w-3xl mx-auto px-6 text-left">
-                <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">
+                <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 underline">
                     {heading}
                 </h1>
                 <p className="text-lg md:text-xl text-gray-600 leading-relaxed mb-4">
