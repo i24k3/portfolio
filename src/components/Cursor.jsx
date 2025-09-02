@@ -61,8 +61,8 @@ export default function CustomCursor() {
             circlesRef.current.forEach((circle, index) => {
                 if (!circle) return;
 
-                circle.style.left = `${x - 13}px`;
-                circle.style.top = `${y - 9}px`;
+                circle.style.left = `${x - 11}px`;
+                circle.style.top = `${y - 8}px`;
                 circle.style.scale = (circlesRef.current.length - index) / circlesRef.current.length;
 
                 circle.x = x;
