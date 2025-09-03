@@ -5,23 +5,26 @@ import App from './App.jsx'
 import Loading from './components/Loading.jsx'
 
 const Root = () => {
-    const [showApp, setShowApp] = useState(false);
+    const [loading, setLoading] = useState(true); // start the data load from the get go
 
     useEffect(() => {
         const timer = setTimeout(() => {
-            setShowApp(true);
+            setLoading(false);
         }, 1000);
         return () => clearTimeout(timer);
     }, []);
 
     return (
-        <div className={showApp ? 'cursor-none' : 'cursor-default'}>
+        <div className={loading ? 'cursor-none' : 'cursor-default'}>
+            <div className='relative'>
             <App />
-            {!showApp && (
-                <div className="fixed inset-0 z-50 flex items-center justify-center bg-gray-300">
+
+            {loading && (
+                <div className="fixed inset-0 z-50 flex items-center justify-center bg-gray-300 transition-opacity duration-500 ">
                     <Loading />
                 </div>
             )}
+            </div>
         </div>
     );
 };

@@ -6,9 +6,9 @@ export default function Projects({ data }) {
     return (
         <section className="bg-transparent text-gray-900 py-33 ">
             <div className="max-w-3xl mx-auto px-6 text-left">
-                <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 underline">
+                <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 underline">
                     {title}
-                </h1>
+                </h2>
 
                 <p className="text-lg md:text-xl text-gray-600 leading-relaxed mb-10">
                     {desc}
@@ -44,7 +44,7 @@ const ProjectCard = ({ data }) => {
       <div className="flex flex-col gap-2">
         <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center">
           <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
-          <p className="text-sm text-gray-500 italic underline">{date}</p>
+          <p className="text-sm text-gray-800 italic underline">{date}</p>
         </div>
 
         <p className="text-md text-gray-800 font-medium mt-2">{summary}</p>
