@@ -27,6 +27,7 @@ export default function Projects({ data }) {
 const ProjectCard = ({ data }) => {
   const { title, date, summary, details, github, websiteUrl } = data;
   const [expanded, setExpanded] = useState(false);
+  const [cardHovered, setCardHovered] = useState(false);
 
   const handleToggle = () => {
     setExpanded(prev => !prev);
@@ -35,6 +36,8 @@ const ProjectCard = ({ data }) => {
   return (
     <div
       onClick={handleToggle}
+      onMouseEnter={() => setCardHovered(true)}
+      onMouseLeave={() => setCardHovered(false)}
       className={`border border-gray-400 rounded-lg p-6 shadow-sm transition-shadow duration-300 cursor-pointer group 
         ${expanded ? "shadow-md" : "hover:shadow-md"}`}
     >
@@ -80,8 +83,10 @@ const ProjectCard = ({ data }) => {
             )}
           </div>
 
-          <span className="text-sm text-emerald-500 font-extrabold group-hover:underline">
-            {expanded ? "↑" : "↓"}
+          <span className="text-sm text-emerald-500 ">
+            {cardHovered && expanded ? "↑ " : cardHovered ? "↓ " : "" }
+            {/* {expanded ? "↑" : "↓"} */}
+            {expanded ? "Read less" : "Read more"}
           </span>
         </div>
       </div>

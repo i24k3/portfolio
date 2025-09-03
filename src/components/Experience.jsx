@@ -31,14 +31,19 @@ export const Experience = ({ data }) => {
 const ExpCard = ({ data }) => {
   const { title, date, summary, details } = data;
   const [expanded, setExpanded] = useState(false);
+  const [cardHovered, setCardHovered] = useState(false);
 
   const toggleDetails = (e) => {
-    e.stopPropagation(); // In case your cards become clickable later
+    e.stopPropagation(); 
     setExpanded((prev) => !prev);
   };
 
   return (
-    <div className="border-l-4 border-gray-900 pl-6 relative cursor-pointer" onClick={toggleDetails} >
+    <div className="border-l-4 border-gray-900 pl-6 relative cursor-pointer group" 
+            onClick={toggleDetails} 
+            onMouseEnter={() => setCardHovered(true)}
+            onMouseLeave={() => setCardHovered(false)}
+        >
 
       <div className="absolute -left-2.5 top-1 w-4 h-4 bg-gray-900 rounded-full shadow-md"></div>
 
@@ -54,8 +59,10 @@ const ExpCard = ({ data }) => {
       </div>
 
       {/* Toggle Button */}
-      <div className="mt-2 text-sm font-medium text-emerald-500 hover:underline focus:outline-none" > 
-        {expanded ? "↑" : "↓"}
+      <div className="mt-2 text-sm font-medium text-emerald-500 focus:outline-none group-hover:underline" > 
+        {expanded ? "↑ " : "↓ "}
+        {cardHovered && expanded ? "Read less" : cardHovered ? "Read more" : "" }
+                
       </div>
     </div>
   );
