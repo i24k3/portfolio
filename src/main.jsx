@@ -20,7 +20,7 @@ const Root = () => {
             <App />
 
             {loading && (
-                <div className="fixed inset-0 z-50 flex items-center justify-center bg-gray-300 transition-opacity duration-500 ">
+                <div className="fixed inset-0 z-50 flex items-center justify-center bg-gray-50 transition-opacity duration-500 ">
                     <Loading />
                 </div>
             )}

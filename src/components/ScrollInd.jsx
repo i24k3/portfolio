@@ -14,7 +14,7 @@ const ScrollInd = () => {
 
   return (
     <div
-      className={`fixed bottom-6 left-1/2 transform -translate-x-1/2 text-4xl transition-opacity duration-500 z-50 ${
+      className={`border-black fixed bottom-6 left-1/2 transform -translate-x-1/2 text-4xl transition-opacity duration-500 z-50 ${
         visible ? "opacity-100" : "opacity-0 pointer-events-none"
       }`}
     >
