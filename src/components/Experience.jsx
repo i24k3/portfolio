@@ -62,7 +62,7 @@ expanded ? "max-h-[1000px] opacity-100 mt-3" : "max-h-0 opacity-0" }`} >
 
             {/* Toggle Button */}
             <div className="mt-2 text-sm font-medium text-emerald-500 focus:outline-none " > 
-                {expanded ? "Read less" : "Read more"}
+                {expanded ? "Read less " : "Read more "}
                 {cardHovered && expanded ? "↑" : cardHovered ? "↓" : "" }
 
             </div>
