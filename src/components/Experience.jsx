@@ -47,7 +47,6 @@ const ExpCard = ({ data }) => {
             onMouseLeave={() => setCardHovered(false)}
         >
 
-            <div className="absolute -left-2.5 top-1 w-4 h-4 bg-gray-900 rounded-full shadow-md"></div>
 
             <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
             <p className="text-sm text-gray-500 mb-2 italic">{date}</p>

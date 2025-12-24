@@ -1,7 +1,8 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 
-const cord = { x: -22, y: -22 };
+const cord = { x: -9999, y: -9999 };
+// const cord = { x: -22, y: -22 };
 
 export default function CustomCursor() {
     const circlesRef = useRef([]);
